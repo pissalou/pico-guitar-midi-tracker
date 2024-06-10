@@ -20,6 +20,5 @@ jobs:
     - name: release
       uses: softprops/action-gh-release@v1
       with:
-        files:
-          - build/pico-guitar-midi-tracker.uf2
+        files: build/pico-guitar-midi-tracker.uf2
 
